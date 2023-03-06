@@ -7,9 +7,9 @@ repo_url: https://github.com/jared252016/eanix-build
 edit_uri: blob/main/docs/
 
 theme:
-    name: mkdocs
+  name: 'material'
     locale: en
-    analytics: {gtag: 'G-274394082'}
+    #analytics: {gtag: 'G-274394082'}
     highlightjs: true
     hljs_languages:
         - yaml
