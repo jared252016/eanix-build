@@ -1,0 +1,58 @@
+site_name: Eanix Self-Hosted
+site_url: https://build.eanix.net/
+site_description: A complete guide to building a home server
+site_author: Jared Weisinger
+
+repo_url: https://github.com/jared252016/eanix-build
+edit_uri: blob/main/docs/
+
+theme:
+    name: mkdocs
+    locale: en
+    analytics: {gtag: 'G-274394082'}
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+nav:
+    - Home: index.md
+    - Getting Started: getting-started.md
+    - User Guide: user-guide/
+    - Developer Guide: dev-guide/
+    - About:
+        - Release Notes: about/release-notes.md
+        - Contributing: about/contributing.md
+        - License: about/license.md
+
+markdown_extensions:
+    - toc:
+        permalink: 
+    - attr_list
+    - def_list
+    - tables
+    - pymdownx.highlight:
+        use_pygments: false
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - callouts
+    - mdx_gh_links:
+        user: jared252016
+        repo: eanix-build
+    - mkdocs-click
+
+copyright: Copyright &copy; 2023 <a href="https://jaredweisinger.com">Jared Weisinger</a>
+
+plugins:
+    - search
+    - codeinclude
+    - toc-sidebar
+    - meta-descriptions
+      export_csv: false
+      quiet: false
+      enable_checks: false
+      min_length: 50
+      max_length: 160
+    - progress
+    - thumbnails
+    - git-revision-date
