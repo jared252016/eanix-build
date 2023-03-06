@@ -4,7 +4,7 @@
 # What is Eanix Self-Hosted?
 [Eanix Self-Hosted](https://build.eanix.net/) is the build we use at the core of Eanix. It's what we build our interface on top of. Eanix Self-Hosted has all of the capabilities of the PerfectMediaServer over at [PerfectMediaServer.com](https://perfectmediaserver.com/), but with a slightly different approach.
 
-Eanix Self-Hosted, or ESH, is a 100% open-source technology stack that enables you to explore a new type of application across your devices. These applications do not store data on the device, but on the server that the applications reside on. They are based on the same technologies as the web, and is a subset of Web 3. The idea is to run your own cloud at home and get away from "big data," which gives you full control over your data and privacy.
+Eanix Self-Hosted, or ESH, is a 100% open-source technology stack that enables you to explore a new type of application across your devices. These applications do not store data on the device, but on the server that the applications reside on. They are based on the same technologies as the web, and are a subset of Web 3. The idea is to run your own cloud at home and get away from "big data," which gives you full control over your data and privacy.
 
 The ESH hardware we run on is actually gaming hardware. Gaming hardware is designed to be put to the test on a regular basis and has a greater lifetime, even when running 24/7. Most gaming hardware also has a lot of SATA ports built into the motherboard, as opposed to the 2 that a PC from a top brand may come with. This gives us the ability to add the necessary hardware to reach our target requirements. 
 ## The Requirements
