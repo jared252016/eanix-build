@@ -48,11 +48,11 @@ plugins:
     - codeinclude
     - toc-sidebar
     - meta-descriptions
-      export_csv: false
-      quiet: false
-      enable_checks: false
-      min_length: 50
-      max_length: 160
+        export_csv: false
+        quiet: false
+        enable_checks: false
+        min_length: 50
+        max_length: 160
     - progress
     - thumbnails
     - git-revision-date
