@@ -7,13 +7,13 @@ repo_url: https://github.com/jared252016/eanix-build
 edit_uri: blob/main/docs/
 
 theme:
-  name: 'material'
+    name: 'material'
     locale: en
     #analytics: {gtag: 'G-274394082'}
     highlightjs: true
     hljs_languages:
-        - yaml
-        - django
+      - yaml
+      - django
 
 nav:
     - Home: index.md
