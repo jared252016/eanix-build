@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v2
+      - name: Update PIP
+        run: sudo pip install --upgrade pip
       - name: Install MuPDF
         run: sudo apt install mupdf -y
       - name: Deploy docs
